@@ -1,0 +1,32 @@
+{
+  "name": "firstnodeproject",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrinceDavis/firstnodeproject.git"
+  },
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "~0.2.8",
+    "ejs": "^2.5.2",
+    "express": "~4.13.3",
+    "socket.io": "~0.9.14"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "jshint": "^2.9.3",
+    "wiredep": "^4.0.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrinceDavis/firstnodeproject/issues"
+  },
+  "homepage": "https://github.com/PrinceDavis/firstnodeproject#readme"
+}
